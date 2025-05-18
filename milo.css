@@ -1,0 +1,196 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;  /* Fondo oscuro */
+    color: #D1D1D1;  /* Texto claro */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #4d1113;  /* Fondo oscuro para el header */
+    color: #F5F5F5;  /* Texto blanco */
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+    border-bottom: 2px solid #333; /* Línea separadora elegante */
+}
+
+.titulo-principal {
+    font-size: 4em;  /* Título grande */
+    font-weight: bold;
+    color: #4d1113;  /* Blanco */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.3em;
+    color: #AEC6CF;  /* Color suave para subtítulo */
+    font-style: italic;
+}
+
+/* Navbar */
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.navbar a {
+    color: #AEC6CF;  /* Color claro para los enlaces */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #F5F5F5;  /* Blanco al hacer hover */
+    text-decoration: underline;
+    transform: translateY(-2px);  /* Efecto de elevación sutil */
+}
+
+/* Sección Principal (Hero) */
+.hero {
+    background-image: url('background-hero.jpg');  /* Fondo atractivo (deberías cambiar la URL de la imagen) */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra interna para profundidad */
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6);  /* Fondo oscuro semitransparente */
+    padding: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3);
+}
+
+.hero h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.btn-primary {
+    background-color: #F8BBD0;  /* Rosa suave */
+    color: white;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #F5A7B8;  /* Rosa más claro */
+    transform: translateY(-3px);  /* Efecto de elevación */
+}
+
+/* Sección de Productos */
+.productos {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #181818;  /* Fondo oscuro para los productos */
+    color: #D1D1D1;  /* Texto claro */
+}
+
+.productos h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #F5A7B8;  /* Rosa suave */
+}
+
+.producto-card {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    background-color: #282828;  /* Fondo más oscuro para las tarjetas */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+.producto-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.producto-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #F5F5F5;
+}
+
+.producto-card p {
+    color: #AEC6CF;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.producto-card button {
+    background-color: #F8BBD0;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.producto-card button:hover {
+    background-color: #F5A7B8;
+}
+
+/* Footer */
+footer {
+    background-color: #1F1F1F;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1em;
+}
